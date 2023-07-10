@@ -6,12 +6,12 @@ import Navbar from "../../component/navbar";
 const HomePage = () => {
     return(
         <React.Fragment>
-            <div className="flex bg-lightPrimary dark:!bg-navy-900">
+            <div className="flex bg-lightPrimary dark:!bg-darkPurple">
                 <Sidebar />
                 {/* <main className={`mx-[12px] h-full flex-none transition-all md:pr-2 xl:ml-[313px]`}>
                     
                 </main> */}
-                <div className="flex-1 ml-4 h-screen relative duration-300 bg-lightPrimary dark:!bg-navy-900">
+                <div className="flex-1 ml-4 h-screen relative duration-300 bg-lightPrimary dark:!bg-darkPurple">
                 <Navbar />
                     <MainContent />
                 </div>
